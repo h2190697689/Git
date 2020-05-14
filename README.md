@@ -3,6 +3,9 @@
 ## git init 
 - git 初始化仓库
 
+## 删除.git 文件夹(删除本地git)
+- find . -name ".git" | xargs rm -Rf
+
 ## git add 文件名  (或者 git add .)
 - 将文件添加到仓库
 
